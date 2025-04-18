@@ -7,13 +7,14 @@ function App() {
   return (
     <Router>
       <nav>
-        <Link to="/">Home</Link>|
-        <Link to='/profile'>Profile</Link>|
+        <Link to="/">Home</Link>
+        <Link to='/profile'>Profile</Link>
         <Link to='/courses'>Courses</Link>
       </nav>
       <Routes>
-        
-        
+        <Route path="/" element={<HomePage />}/>
+        <Route path="/profile" element={<Profile />}/>
+        <Route path="/courses" element={<CoursePage />}/>
       </Routes>
     </Router>
   );
