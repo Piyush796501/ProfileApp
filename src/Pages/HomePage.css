@@ -1,0 +1,21 @@
+.home-container {
+    background-image: url('https://source.unsplash.com/1600x900/?technology,code'); /* Beautiful image from Unsplash */
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .home-content {
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+    padding: 2rem;
+    border-radius: 1px;
+    
+    text-align: center;
+    width: 100%;
+  }

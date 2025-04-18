@@ -6,9 +6,9 @@ import CoursePage from './Pages/CoursePage';
 function App() {
   return (
     <Router>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to='/profile'>Profile</Link>
+      <nav className='navbar'>
+        <Link to="/">Home</Link>||
+        <Link to='/profile'>Profile</Link>||
         <Link to='/courses'>Courses</Link>
       </nav>
       <Routes>

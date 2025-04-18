@@ -1,6 +1,20 @@
 .App {
   text-align: center;
 }
+body
+{
+margin: 0;
+padding:0;
+font-family: Arial, Helvetica, sans-serif;
+background: linear-gradient(to bottom right, #f0f8ff,#e6efae);
+}
+.navbar
+{
+  display:flex;
+  justify-content: flex-end;
+  background-color:wheat;
+  padding: 1rem;
+}
 
 .App-logo {
   height: 40vmin;
